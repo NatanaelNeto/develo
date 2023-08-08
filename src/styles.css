@@ -58,3 +58,21 @@ p { font-size: 24px; }
 html, body {
   background-color: var(--white);
 }
+
+button {
+  padding: 10px 20px;
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  border: 3px solid var(--black);
+  box-shadow: 0px 0px 0px var(--black);
+}
+
+button:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 0px var(--black);
+}
+
+.btn-rounded {
+  border-radius: 100px;
+}

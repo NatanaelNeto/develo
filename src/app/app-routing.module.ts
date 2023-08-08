@@ -1,23 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   {
     path: 'home',
-    component: NavbarComponent
+    component: HomeComponent
   },
   {
     path: 'time',
-    component: NavbarComponent
+    component: HomeComponent
   },
   {
     path: 'pomo',
-    component: NavbarComponent
+    component: HomeComponent
   },
   {
     path: 'memo',
-    component: NavbarComponent
+    component: HomeComponent
   },
   {
     path: '',
