@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@700&family=Public+Sans:wght@400;700&display=swap');
+
+:root {
+  --green: #2fff2f;
+  --cyan: #7df9ff;
+  --blue: #3300ff;
+  --pink: #ff00f5;
+  --yellow: #ffff00;
+  --orange: #ff4911;
+  --m-blue-0: #69d2e7;
+  --m-blue-1: #87ceeb;
+  --m-blue-2: #a7dbd8;
+  --m-blue-3: #daf5f0;
+  --m-green-0: #7fbc8c;
+  --m-green-1: #95e995;
+  --m-green-2: #bafca2;
+  --m-green-3: #d4eecc;
+  --m-yellow-0: #e3a018;
+  --m-yellow-1: #f4d738;
+  --m-yellow-2: #ffde69;
+  --m-yellow-3: #fdfd96;
+  --m-red-0: #ff6b6b;
+  --m-red-1: #ff7a5c;
+  --m-red-2: #ffa07a;
+  --m-red-3: #f8d6b3;
+  --m-pink-0: #ff69b4;
+  --m-pink-1: #ffb2ef;
+  --m-pink-2: #ffc8cb;
+  --m-pink-3: #fcdfff;
+  --m-purple-0: #9723c9;
+  --m-purple-1: #b19af1;
+  --m-purple-2: #cbb1f7;
+  --m-purple-3: #e3dff2;
+  --black: #000000;
+  --white: #fff1e8;
+}
+
+* {
+  font-family: 'Public Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s ease-out;
+}
+
+h1, h2, h3 {
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 700;
+}
+
+h1 { font-size: 48px; }
+h2 { font-size: 40px; }
+h3 { font-size: 36px; }
+p { font-size: 24px; }
+
+html, body {
+  background-color: var(--white);
+}
