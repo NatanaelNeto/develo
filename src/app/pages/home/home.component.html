@@ -1,0 +1,31 @@
+<section class="home">
+  <div class="home_title">
+    <h2>A brutal web toolbox for your productivity</h2>
+    <app-card shadow="shaded" [isRounded]="true">
+      <p>Simple. Easy. Free.</p>
+    </app-card>
+  </div>
+  <div class="home_cards">
+    <app-card shadow="none" [isRounded]="false">
+      <div class="home_cards-card">
+        <h3>Time</h3>
+        <p>A timer to check the time spent on your tasks.</p>
+        <button style="background-color: var(--blue); color: var(--white);" class="btn-rounded" (click)="goTo('/time')">time</button>
+      </div>
+    </app-card>
+    <app-card shadow="none" [isRounded]="false">
+      <div class="home_cards-card">
+        <h3>Pomo</h3>
+        <p>Give your tasks a 15-minutes sprint and relax 5!</p>
+        <button style="background-color: var(--orange);" class="btn-rounded" (click)="goTo('/pomo')">pomo</button>
+      </div>
+    </app-card>
+    <app-card shadow="none" [isRounded]="false">
+      <div class="home_cards-card">
+        <h3>Memo</h3>
+        <p class="italic">"I don't wanna to fall asleep [..] and I don't wanna miss a thing"</p>
+        <button style="background-color: var(--yellow);" class="btn-rounded" (click)="goTo('/memo')">memo</button>
+      </div>
+    </app-card>
+  </div>
+</section>
