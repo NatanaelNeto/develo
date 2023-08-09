@@ -1,0 +1,28 @@
+<section class="time">
+<h2 style="color: var(--yellow)">Time</h2>
+<div class="time_container">
+  <app-card [isRounded]="true" shadow="shaded">
+    <div class="time_content">
+      <app-card [isRounded]="true" shadow="none">
+        <div class="time_tasks">
+          <h3>Tasks</h3>
+          <button style="background-color: var(--yellow);" class="btn-rounded">Add</button>
+        </div>
+      </app-card>
+      <div>
+        <app-card [isRounded]="true" shadow="none">
+          <div class="time_counter">
+            <p>00:00:00</p>
+          </div>
+        </app-card>
+        <app-card [isRounded]="true" shadow="none">
+          <div class="time_menu">
+            <button style="background-color: var(--yellow);" class="btn-rounded">play</button>
+            <button style="background-color: var(--orange);" class="btn-rounded">pause</button>
+          </div>
+        </app-card>
+      </div>
+    </div>
+  </app-card>
+</div>
+</section>

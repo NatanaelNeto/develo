@@ -1,0 +1,67 @@
+.time {
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: var(--m-purple-1);
+  margin-top: 80px;
+}
+
+.time h2 {
+  font-size: 72px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.time_container {
+  width: 90%;
+}
+
+.time_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.time_content > * {
+  width: 50%;
+  text-align: center;
+}
+
+.time_counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time_counter p {
+  font-size: 72px;
+  padding-top: 7px;
+  font-family: 'Cousine', monospace;
+}
+
+.time_menu button {
+  margin: auto 10px;
+}
+
+.time_tasks {
+  min-height: 194px;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.time_tasks button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.time_tasks button:hover {
+  transform: translate(calc(-50% - 5px), -5px);
+}
+
+.time_tasks h3 {
+  margin-bottom: 40px;
+}
